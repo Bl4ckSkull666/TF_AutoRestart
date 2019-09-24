@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <config Name="shutdown" Value="heruntergefahren" />
+  <config Name="restart" Value="neugestartet" />
+  <config Name="countdown" Value="900:Der Server wird in 15 Minuten %typ." />
+  <config Name="countdown" Value="600:Der Server wird in 10 Minuten %typ." />
+  <config Name="countdown" Value="300:Der Server wird in 5 Minuten %typ." />
+  <config Name="countdown" Value="60:Der Server wird in 1 Minute %typ." />
+  <config Name="countdown" Value="30:Der Server wird in 30 Sekunden %typ." />
+  <config Name="countdown" Value="10:Der Server wird in 10 Sekunden %typ." />
+  <config Name="countdown" Value="5:Der Server wird in 5 Sekunden %typ." />
+  <config Name="countdown" Value="3:Der Server wird in 3 Sekunden %typ." />
+  <config Name="countdown" Value="2:Der Server wird in 2 Sekunden %typ." />
+  <config Name="countdown" Value="1:Der Server wird in 1 Sekunden %typ." />
+  <!-- action values: shutdown & restart -->
+  <config Name="action" Value="shutdown" />
+  <config Name="times" Value="01:00,07:00,13:00,19:00" />
+</Configuration>
